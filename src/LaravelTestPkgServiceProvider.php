@@ -13,6 +13,7 @@ class LaravelTestPkgServiceProvider extends ServiceProvider
     */
     public function boot()
     {
+        
         /*
         $this->publishes([
             __DIR__.'/../config/laravel_log_enhancer.php' => config_path('laravel_log_enhancer.php'),
