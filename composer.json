@@ -1,0 +1,25 @@
+{
+    "name": "vmusca/laravel-test-pkg",
+    "description": "A test laravel package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasile MUSCA",
+            "email": "vasile.musca@opticnet.ro"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    "psr-4": {
+        "Vasile\\LaravelTestPkg\\": "src/"
+    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vasile\\LaravelTestPkg\\LaravelTestPkgServiceProvider"
+            ]
+        }
+    }
+}
